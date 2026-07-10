@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #ffba8d;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.home-title{
+    width: 300px;
+    text-align: center;
+    background-color: rgb(253, 209, 209);
+    border: 10px groove #fa9f62;
+}
+
+ul.recipes  {
+    width: 300px;
+    height: 700px;
+    border: 10px ridge #fa9f62;
+    background-color: rgb(253, 240 , 240);
+    padding: 20px;
+}
+
+.recipes .recipe {
+    margin: 0px 0px 20px 20px;
+}
