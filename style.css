@@ -13,14 +13,16 @@ body {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.home-title{
+.home-title,
+.recipe-title {
     width: 300px;
     text-align: center;
     background-color: rgb(253, 161, 41);
     border: 10px groove #ffd483;
+    margin: 10px 0px;
 }
 
-ul.recipes  {
+ul.recipes-list  {
     width: 300px;
     height: 700px;
     border: 10px ridge #ffb482;
@@ -29,11 +31,11 @@ ul.recipes  {
     list-style: none;
 }
 
-.recipes .recipe {
+.recipes-list .recipe-list {
     margin-bottom: 3px ;
 }
 
-.recipes .recipe button {
+.recipes-list .recipe-list button {
     border: 3px inset rgba(200, 100, 100, 200);
     font-size: 20px;
     text-align: justify;
@@ -42,6 +44,43 @@ ul.recipes  {
     background-color: #ffc7a2;
 }
 
-.recipes .recipe button:hover {
+.recipes-list .recipe-list button:hover {
     background-color: #fa9f62;
+}
+
+.main-recipe {
+    border: 10px ridge #ffb482;
+}
+.description,
+.ingredients,
+.steps {
+    border: 10px ridge #ffb482;
+    background-color: rgb(255, 196, 196);
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.description h2,
+.ingredients h2,
+.steps h2 {
+    border: 3px inset rgba(200, 100, 100, 200);
+    width: fit-content;
+    padding: 5px 10px;
+    background-color: #ffc7a2;
+    margin-top: 0px;
+    margin-bottom: -2px;
+}
+
+.recipe li {
+    margin: 6px 0px;
+}
+
+h6 {
+    border: 5px double black ;
+    width: 10em;
+    padding: 10px;
+    text-align: center;
+    background-color: wheat;
 }
