@@ -24,7 +24,7 @@ body {
 
 ul.recipes-list  {
     width: 300px;
-    height: 700px;
+    height: fit-content;
     border: 10px ridge #ffb482;
     background-color: rgb(255, 196, 196);
     padding: 3px;
